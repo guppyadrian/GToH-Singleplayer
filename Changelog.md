@@ -1,4 +1,7 @@
 # Changelog
+### Version 0.5.0 `UNRELEASED`
+- Bugfixes
+  - Removed 'made by guppy' in Tower of Backtracking for consistency
 ### Version 0.4.1 `FIXES`
 - Bugfixes
   - Tower of Backtracking used "spawn:" instead of "spawn", causing the script to error and not reset timer

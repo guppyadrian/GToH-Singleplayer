@@ -149,6 +149,7 @@ class Character {
               break;
             case 'njump':
               nJump = true;
+              return true;
             default:
               return true;
           }
