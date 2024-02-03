@@ -142,9 +142,9 @@ class Character {
               plyr.y = i.tags[1];
               return;
             case 'decor':
-              if(i.tags[1] === false && i.tags.includes('moderatorTest')) {
+              if(i.tags[1] === false && i.tags.includes('gtoh-expanded')) {
                 i.tags[1] = true;
-                window.open('https://forms.gle/ckB88jTSwNdWwWXbA', '_blank');
+                location.href = 'https://rogergtoh.github.io/GToH-Expanded/';
               }
               break;
             case 'njump':
@@ -155,7 +155,6 @@ class Character {
         }
       }
     }
-    
     const gravitySign = this.gravityDisabled ? 1 : (this.gravityReversed ? -1 : 1)
 
     //fly yAccel slowdown
