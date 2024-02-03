@@ -1,4 +1,6 @@
 # Changelog
+### Version 0.4.2 `SMALL ADDITION`
+- Added portal to GToH-Expanded's github page
 ### Version 0.4.1 `FIXES`
 - Bugfixes
   - Tower of Backtracking used "spawn:" instead of "spawn", causing the script to error and not reset timer
